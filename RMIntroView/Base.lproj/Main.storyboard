@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="438" y="19"/>
+        </scene>
+        <!--Page View Controller-->
+        <scene sceneID="39L-Ka-QK0">
+            <objects>
+                <pageViewController storyboardIdentifier="PageViewController" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="U67-eW-dkX" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cMB-zQ-9iS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="938" y="422"/>
+        </scene>
+        <!--Page Content View Controller-->
+        <scene sceneID="sjt-Cj-E5c">
+            <objects>
+                <viewController storyboardIdentifier="PageContentViewController" id="osK-SD-t8g" customClass="PageContentViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DOL-z7-emD"/>
+                        <viewControllerLayoutGuide type="bottom" id="OtP-kH-HT6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Was-Cg-JRb">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GoH-hB-XUR">
+                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EUD-Wo-yZV">
+                                <rect key="frame" x="279" y="40" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="tA1-oA-lwt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="EUD-Wo-yZV" firstAttribute="centerX" secondItem="Was-Cg-JRb" secondAttribute="centerX" id="5pA-Iq-O3a"/>
+                            <constraint firstAttribute="trailing" secondItem="GoH-hB-XUR" secondAttribute="trailing" id="J8g-9S-hAq"/>
+                            <constraint firstItem="GoH-hB-XUR" firstAttribute="top" secondItem="DOL-z7-emD" secondAttribute="bottom" id="SmL-nj-ce3"/>
+                            <constraint firstItem="OtP-kH-HT6" firstAttribute="top" secondItem="GoH-hB-XUR" secondAttribute="bottom" id="adR-Oz-e5Q"/>
+                            <constraint firstItem="EUD-Wo-yZV" firstAttribute="top" secondItem="DOL-z7-emD" secondAttribute="bottom" constant="20" id="cpu-Nl-Eqf"/>
+                            <constraint firstItem="GoH-hB-XUR" firstAttribute="leading" secondItem="Was-Cg-JRb" secondAttribute="leading" id="fM9-tP-XDa"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="backGroundImgView" destination="GoH-hB-XUR" id="K5o-F1-HYe"/>
+                        <outlet property="titleLabel" destination="EUD-Wo-yZV" id="iCQ-ho-ExW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sj9-Yr-pA7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="105" y="414"/>
+        </scene>
+    </scenes>
+</document>
