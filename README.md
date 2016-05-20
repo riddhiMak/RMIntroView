@@ -1,7 +1,6 @@
 # RMIntroView
 
-
- RMINtroview is easy to use which allow you to introduce your application to user Before the user has to go through a signup process or main screen.
+ RMIntroview is easy to use which allow you to introduce your application to user Before the user has to go through a signup process or main screen.
 
 <p align="center">
   <img src="https://github.com/riddhiMak/RMIntroView/blob/master/screenshot/output_MDRw21.gif">
