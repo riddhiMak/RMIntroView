@@ -3,10 +3,8 @@
 
  RMINtroview is easy to use which allow you to introduce your application to user Before the user has to go through a signup process or main screen.
 
-[![screenshot](https://raw.githubusercontent.com/riddhiMak/RMIntroView/master/screenshot/Screen%20Shot1.png)](#features)
-[![screenshot](https://raw.githubusercontent.com/riddhiMak/RMIntroView/master/screenshot/Screen%20Shot4.png)](#features)
-[![screenshot](https://raw.githubusercontent.com/riddhiMak/RMIntroView/master/screenshot/Screen%20Shot1.png)](#features)
-[![screenshot](https://raw.githubusercontent.com/riddhiMak/RMIntroView/master/screenshot/Screen%20Shot2.png)](#features)
+[![screenshot](https://github.com/riddhiMak/RMIntroView/blob/master/output_W1mxor.gif)](#features)
+
 ## How to use?
 
 To use RMIntroview please do following steps:
